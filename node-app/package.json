@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ipfs-core": "^0.14.2"
+    "ipfs-core": "^0.14.2",
+    "it-to-buffer": "^2.0.2"
   }
 }
