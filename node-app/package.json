@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "ipfs-core": "^0.14.2",
+    "ipns": "^1.0.0",
     "it-to-buffer": "^2.0.2"
   }
 }
