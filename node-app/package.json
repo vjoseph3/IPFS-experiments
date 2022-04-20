@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run dangerously-customize-node_modules && node index.js",
+    "dangerously-customize-node_modules": "./dangerously-customize-node_modules.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
