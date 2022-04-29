@@ -5,15 +5,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dangerously-customize-node_modules && node index.js",
+    "start": "node index.js",
     "dangerously-customize-node_modules": "./dangerously-customize-node_modules.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "go-ipfs": "^0.12.2",
     "ipfs-core": "^0.14.2",
+    "ipfs-http-client": "^56.0.3",
+    "ipfsd-ctl": "^10.0.6",
     "ipns": "^1.0.0",
-    "it-to-buffer": "^2.0.2"
+    "it-to-buffer": "^2.0.2",
+    "node-fetch3": "npm:node-fetch@^3.2.4",
+    "protobufjs": "~6.11.2"
   }
 }
