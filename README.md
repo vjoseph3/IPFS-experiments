@@ -31,6 +31,6 @@ npm start
 
 ## Explore
 
-Browse the code, make changes, and see what happens!
+Browse the code, make changes, and see what happens! (see [disclaimer](#disclaimer))
 
 For convenient switching back and forth between individual experiments, each experiment is housed within a function that can be commented/uncommented in `index.js`.
